@@ -1,0 +1,511 @@
+{
+  "scope": "Dhaka City preliminary bounding box",
+  "boundary_note": "Approximate coordinate filter, not an official administrative boundary.",
+  "coordinate_filter": {
+    "min_lat": 23.62,
+    "max_lat": 23.92,
+    "min_lon": 90.32,
+    "max_lon": 90.52
+  },
+  "clustering": {
+    "algorithm": "DBSCAN",
+    "radius_metres": 500,
+    "minimum_records": 5
+  },
+  "source": "BUET",
+  "records_used": 2019,
+  "noise_records": 118,
+  "hotspot_count": 35,
+  "hotspots": [
+    {
+      "cluster_id": 5,
+      "latitude": 23.740954,
+      "longitude": 90.410863,
+      "accident_records": 241,
+      "unique_locations": 35,
+      "severity_counts": {
+        "vehicle_collision": 83,
+        "death": 65,
+        "extensive_injury": 55,
+        "minor_injury": 38
+      },
+      "fatalities": 228,
+      "injuries": 488
+    },
+    {
+      "cluster_id": 34,
+      "latitude": 23.754,
+      "longitude": 90.416,
+      "accident_records": 221,
+      "unique_locations": 1,
+      "severity_counts": {
+        "vehicle_collision": 221
+      },
+      "fatalities": 232,
+      "injuries": 454
+    },
+    {
+      "cluster_id": 1,
+      "latitude": 23.804012,
+      "longitude": 90.365011,
+      "accident_records": 178,
+      "unique_locations": 9,
+      "severity_counts": {
+        "vehicle_collision": 66,
+        "death": 59,
+        "minor_injury": 29,
+        "extensive_injury": 24
+      },
+      "fatalities": 166,
+      "injuries": 385
+    },
+    {
+      "cluster_id": 2,
+      "latitude": 23.790388,
+      "longitude": 90.428326,
+      "accident_records": 129,
+      "unique_locations": 8,
+      "severity_counts": {
+        "vehicle_collision": 41,
+        "death": 39,
+        "minor_injury": 29,
+        "extensive_injury": 20
+      },
+      "fatalities": 129,
+      "injuries": 262
+    },
+    {
+      "cluster_id": 18,
+      "latitude": 23.78001,
+      "longitude": 90.419939,
+      "accident_records": 121,
+      "unique_locations": 4,
+      "severity_counts": {
+        "vehicle_collision": 41,
+        "death": 35,
+        "minor_injury": 25,
+        "extensive_injury": 20
+      },
+      "fatalities": 118,
+      "injuries": 222
+    },
+    {
+      "cluster_id": 33,
+      "latitude": 23.7137,
+      "longitude": 90.45442,
+      "accident_records": 111,
+      "unique_locations": 2,
+      "severity_counts": {
+        "minor_injury": 52,
+        "extensive_injury": 32,
+        "death": 16,
+        "vehicle_collision": 11
+      },
+      "fatalities": 96,
+      "injuries": 230
+    },
+    {
+      "cluster_id": 13,
+      "latitude": 23.850531,
+      "longitude": 90.408197,
+      "accident_records": 109,
+      "unique_locations": 6,
+      "severity_counts": {
+        "extensive_injury": 52,
+        "death": 34,
+        "vehicle_collision": 23
+      },
+      "fatalities": 110,
+      "injuries": 231
+    },
+    {
+      "cluster_id": 0,
+      "latitude": 23.843424,
+      "longitude": 90.402897,
+      "accident_records": 104,
+      "unique_locations": 4,
+      "severity_counts": {
+        "extensive_injury": 52,
+        "death": 31,
+        "vehicle_collision": 21
+      },
+      "fatalities": 114,
+      "injuries": 194
+    },
+    {
+      "cluster_id": 10,
+      "latitude": 23.713917,
+      "longitude": 90.426116,
+      "accident_records": 99,
+      "unique_locations": 11,
+      "severity_counts": {
+        "vehicle_collision": 36,
+        "death": 34,
+        "extensive_injury": 16,
+        "minor_injury": 13
+      },
+      "fatalities": 84,
+      "injuries": 196
+    },
+    {
+      "cluster_id": 25,
+      "latitude": 23.75,
+      "longitude": 90.37,
+      "accident_records": 80,
+      "unique_locations": 2,
+      "severity_counts": {
+        "vehicle_collision": 30,
+        "death": 27,
+        "extensive_injury": 12,
+        "minor_injury": 11
+      },
+      "fatalities": 89,
+      "injuries": 160
+    },
+    {
+      "cluster_id": 3,
+      "latitude": 23.750017,
+      "longitude": 90.359958,
+      "accident_records": 72,
+      "unique_locations": 3,
+      "severity_counts": {
+        "minor_injury": 26,
+        "vehicle_collision": 21,
+        "extensive_injury": 16,
+        "death": 9
+      },
+      "fatalities": 75,
+      "injuries": 139
+    },
+    {
+      "cluster_id": 23,
+      "latitude": 23.74,
+      "longitude": 90.36,
+      "accident_records": 57,
+      "unique_locations": 6,
+      "severity_counts": {
+        "vehicle_collision": 25,
+        "death": 13,
+        "minor_injury": 12,
+        "extensive_injury": 7
+      },
+      "fatalities": 71,
+      "injuries": 122
+    },
+    {
+      "cluster_id": 4,
+      "latitude": 23.740288,
+      "longitude": 90.39581,
+      "accident_records": 54,
+      "unique_locations": 11,
+      "severity_counts": {
+        "minor_injury": 27,
+        "death": 12,
+        "extensive_injury": 8,
+        "vehicle_collision": 7
+      },
+      "fatalities": 65,
+      "injuries": 114
+    },
+    {
+      "cluster_id": 24,
+      "latitude": 23.74,
+      "longitude": 90.43,
+      "accident_records": 54,
+      "unique_locations": 5,
+      "severity_counts": {
+        "vehicle_collision": 32,
+        "death": 12,
+        "extensive_injury": 10
+      },
+      "fatalities": 53,
+      "injuries": 119
+    },
+    {
+      "cluster_id": 27,
+      "latitude": 23.8036,
+      "longitude": 90.42583,
+      "accident_records": 47,
+      "unique_locations": 1,
+      "severity_counts": {
+        "death": 15,
+        "vehicle_collision": 15,
+        "minor_injury": 13,
+        "extensive_injury": 4
+      },
+      "fatalities": 45,
+      "injuries": 88
+    },
+    {
+      "cluster_id": 11,
+      "latitude": 23.710098,
+      "longitude": 90.435246,
+      "accident_records": 30,
+      "unique_locations": 12,
+      "severity_counts": {
+        "death": 15,
+        "extensive_injury": 8,
+        "minor_injury": 5,
+        "vehicle_collision": 2
+      },
+      "fatalities": 30,
+      "injuries": 61
+    },
+    {
+      "cluster_id": 21,
+      "latitude": 23.89,
+      "longitude": 90.4,
+      "accident_records": 25,
+      "unique_locations": 3,
+      "severity_counts": {
+        "minor_injury": 13,
+        "vehicle_collision": 6,
+        "extensive_injury": 4,
+        "death": 2
+      },
+      "fatalities": 23,
+      "injuries": 58
+    },
+    {
+      "cluster_id": 22,
+      "latitude": 23.65917,
+      "longitude": 90.36083,
+      "accident_records": 24,
+      "unique_locations": 1,
+      "severity_counts": {
+        "minor_injury": 13,
+        "vehicle_collision": 5,
+        "extensive_injury": 4,
+        "death": 2
+      },
+      "fatalities": 23,
+      "injuries": 61
+    },
+    {
+      "cluster_id": 31,
+      "latitude": 23.79,
+      "longitude": 90.4,
+      "accident_records": 17,
+      "unique_locations": 2,
+      "severity_counts": {
+        "vehicle_collision": 11,
+        "extensive_injury": 4,
+        "death": 2
+      },
+      "fatalities": 15,
+      "injuries": 40
+    },
+    {
+      "cluster_id": 16,
+      "latitude": 23.738,
+      "longitude": 90.382,
+      "accident_records": 13,
+      "unique_locations": 1,
+      "severity_counts": {
+        "minor_injury": 12,
+        "death": 1
+      },
+      "fatalities": 19,
+      "injuries": 25
+    },
+    {
+      "cluster_id": 14,
+      "latitude": 23.729917,
+      "longitude": 90.43,
+      "accident_records": 12,
+      "unique_locations": 10,
+      "severity_counts": {
+        "extensive_injury": 6,
+        "vehicle_collision": 3,
+        "minor_injury": 2,
+        "death": 1
+      },
+      "fatalities": 17,
+      "injuries": 23
+    },
+    {
+      "cluster_id": 20,
+      "latitude": 23.710316,
+      "longitude": 90.409951,
+      "accident_records": 11,
+      "unique_locations": 10,
+      "severity_counts": {
+        "vehicle_collision": 11
+      },
+      "fatalities": 14,
+      "injuries": 25
+    },
+    {
+      "cluster_id": 26,
+      "latitude": 23.79,
+      "longitude": 90.38,
+      "accident_records": 11,
+      "unique_locations": 2,
+      "severity_counts": {
+        "vehicle_collision": 8,
+        "death": 3
+      },
+      "fatalities": 13,
+      "injuries": 11
+    },
+    {
+      "cluster_id": 6,
+      "latitude": 23.769611,
+      "longitude": 90.379856,
+      "accident_records": 9,
+      "unique_locations": 2,
+      "severity_counts": {
+        "vehicle_collision": 5,
+        "death": 4
+      },
+      "fatalities": 13,
+      "injuries": 8
+    },
+    {
+      "cluster_id": 9,
+      "latitude": 23.779284,
+      "longitude": 90.3983,
+      "accident_records": 8,
+      "unique_locations": 7,
+      "severity_counts": {
+        "death": 3,
+        "minor_injury": 3,
+        "vehicle_collision": 2
+      },
+      "fatalities": 14,
+      "injuries": 16
+    },
+    {
+      "cluster_id": 15,
+      "latitude": 23.701525,
+      "longitude": 90.449225,
+      "accident_records": 8,
+      "unique_locations": 4,
+      "severity_counts": {
+        "extensive_injury": 4,
+        "death": 3,
+        "minor_injury": 1
+      },
+      "fatalities": 10,
+      "injuries": 19
+    },
+    {
+      "cluster_id": 29,
+      "latitude": 23.764567,
+      "longitude": 90.405608,
+      "accident_records": 8,
+      "unique_locations": 1,
+      "severity_counts": {
+        "minor_injury": 8
+      },
+      "fatalities": 8,
+      "injuries": 17
+    },
+    {
+      "cluster_id": 8,
+      "latitude": 23.769527,
+      "longitude": 90.360406,
+      "accident_records": 7,
+      "unique_locations": 7,
+      "severity_counts": {
+        "vehicle_collision": 5,
+        "death": 1,
+        "minor_injury": 1
+      },
+      "fatalities": 4,
+      "injuries": 14
+    },
+    {
+      "cluster_id": 19,
+      "latitude": 23.821043,
+      "longitude": 90.420087,
+      "accident_records": 7,
+      "unique_locations": 5,
+      "severity_counts": {
+        "minor_injury": 4,
+        "vehicle_collision": 3
+      },
+      "fatalities": 8,
+      "injuries": 19
+    },
+    {
+      "cluster_id": 7,
+      "latitude": 23.75,
+      "longitude": 90.42,
+      "accident_records": 6,
+      "unique_locations": 5,
+      "severity_counts": {
+        "vehicle_collision": 3,
+        "death": 2,
+        "extensive_injury": 1
+      },
+      "fatalities": 6,
+      "injuries": 11
+    },
+    {
+      "cluster_id": 12,
+      "latitude": 23.71,
+      "longitude": 90.45,
+      "accident_records": 6,
+      "unique_locations": 2,
+      "severity_counts": {
+        "extensive_injury": 4,
+        "death": 2
+      },
+      "fatalities": 5,
+      "injuries": 7
+    },
+    {
+      "cluster_id": 17,
+      "latitude": 23.71,
+      "longitude": 90.4,
+      "accident_records": 6,
+      "unique_locations": 6,
+      "severity_counts": {
+        "minor_injury": 3,
+        "vehicle_collision": 3
+      },
+      "fatalities": 6,
+      "injuries": 14
+    },
+    {
+      "cluster_id": 28,
+      "latitude": 23.82,
+      "longitude": 90.43,
+      "accident_records": 6,
+      "unique_locations": 3,
+      "severity_counts": {
+        "vehicle_collision": 4,
+        "minor_injury": 2
+      },
+      "fatalities": 7,
+      "injuries": 12
+    },
+    {
+      "cluster_id": 30,
+      "latitude": 23.875756,
+      "longitude": 90.379778,
+      "accident_records": 5,
+      "unique_locations": 4,
+      "severity_counts": {
+        "vehicle_collision": 3,
+        "minor_injury": 2
+      },
+      "fatalities": 7,
+      "injuries": 9
+    },
+    {
+      "cluster_id": 32,
+      "latitude": 23.79134,
+      "longitude": 90.41614,
+      "accident_records": 5,
+      "unique_locations": 5,
+      "severity_counts": {
+        "vehicle_collision": 3,
+        "death": 2
+      },
+      "fatalities": 4,
+      "injuries": 9
+    }
+  ]
+}

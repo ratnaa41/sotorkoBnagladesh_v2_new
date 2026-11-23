@@ -61,9 +61,14 @@ export default function Login({ onLogin }) {
           </button>
         </form>
 
-        <p style={{ fontSize: 13, marginTop: 16, textAlign: 'center' }}>
-          No account? <Link to="/register">Register</Link>
-        </p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 16, fontSize: 13 }}>
+          <Link to="/forgot-password" style={{ color: '#1e3a5f' }}>
+            Forgot password?
+          </Link>
+          <span>
+            No account? <Link to="/register" style={{ color: '#1e3a5f' }}>Register</Link>
+          </span>
+        </div>
       </div>
     </div>
   )
